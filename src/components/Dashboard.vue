@@ -7,7 +7,9 @@
       <li v-for="employee in employees"
       v-bind:key="employee.id"
       class="collection-item">
-        <div class="chip">{{employee.dept}}</div>
+        <div class="chip">
+          {{employee.dept}}
+        </div>
         {{employee.employee_id}}
         {{employee.name}}
 
